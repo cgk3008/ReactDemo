@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ReactApp.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -58,6 +59,15 @@ namespace ReactApp.Controllers
     {
         public static void Main()
         {
+            //Can't instantiate BaseEmployee since it's an abstract class!!! This prevents devs from accidently trying to use the abstract class when you really only want them to use it as a parent/base class for inheritence.
+            //BaseEmployee be = new BaseEmployee()
+            //{
+            //    ID = 103,
+            //    FirstName = "Dwayne",
+            //    LastName = "Johnson"
+            //};
+            //Console.WriteLine(be.GetFullName());
+
             FullTimeEmployee fte = new FullTimeEmployee()
             {
                 ID = 101,

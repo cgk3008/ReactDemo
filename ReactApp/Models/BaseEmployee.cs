@@ -17,10 +17,27 @@ namespace ReactApp.Models
             return this.FirstName + " " + LastName;
         }
 
-        public virtual int GetMonthlySalary()
-        {
-            throw new NotImplementedException();
-        }
+        //public virtual int GetMonthlySalary()
+        //{
+        //    throw new NotImplementedException();
+        //}
+
+        public abstract int GetMonthlySalary(); //abstract method forces inherited (child) classes to implement GetMonthlySalary
+
+
+        //public Customer()
+        //{
+        //    this._id = Guid.NewGuid();
+        //}
+        //private Guid _id;
+        //public Guid ID
+        //{
+        //    get
+        //    {
+        //        return this._id;
+        //    }
+        //}
+
 
 
 

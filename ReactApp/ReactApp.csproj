@@ -150,7 +150,9 @@
     </Compile>
     <Compile Include="Models\BaseEmployee.cs" />
     <Compile Include="Models\ContractEmployee.cs" />
+    <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\FullTimeEmployee.cs" />
+    <Compile Include="Models\InterviewQuestions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
